@@ -1,0 +1,127 @@
+.page {
+  padding: 24px;
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+.title {
+  font-size: 20px;
+  margin: 0;
+  color: #111827;
+}
+.errorBar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 14px;
+  border-radius: 6px;
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  color: #b91c1c;
+  margin-bottom: 16px;
+}
+.errorMsg {
+  flex: 1;
+  font-size: 14px;
+}
+.toolbar {
+  display: flex;
+  align-items: flex-end;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.filterGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.filterLabel {
+  font-size: 14px;
+  color: #374151;
+}
+.select {
+  padding: 8px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 14px;
+  min-width: 140px;
+}
+.pager {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-left: auto;
+}
+.pageInfo {
+  font-size: 14px;
+  color: #6b7280;
+}
+.aiPanel {
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 20px;
+  background: #fafafa;
+}
+.sectionTitle {
+  font-size: 16px;
+  margin: 0 0 12px;
+  color: #111827;
+}
+.textarea {
+  width: 100%;
+  box-sizing: border-box;
+  min-height: 80px;
+  padding: 10px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 14px;
+  font-family: inherit;
+  resize: vertical;
+}
+.aiControls {
+  display: flex;
+  align-items: flex-end;
+  gap: 12px;
+  margin-top: 12px;
+}
+.countInput {
+  width: 120px;
+}
+.draftList {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.draftItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 8px;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  font-size: 13px;
+}
+.draftText {
+  flex: 1;
+}
+.draftActions {
+  margin-top: 8px;
+}
+.deleteText {
+  font-size: 14px;
+  color: #374151;
+  margin: 0 0 16px;
+}
+.modalFooter {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}

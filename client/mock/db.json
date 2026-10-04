@@ -1,0 +1,395 @@
+{
+  "cards": {
+    "code": 200,
+    "data": {
+      "items": [
+        {
+          "id": 1,
+          "front": "艾宾浩斯遗忘曲线的核心结论是什么？",
+          "back": "记忆随时间指数衰减，及时复习可显著减缓遗忘",
+          "nextReviewAt": "2026-09-23T08:00:00.000Z",
+          "reviewCount": 0,
+          "interval": 1,
+          "easeFactor": 2.5,
+          "createdAt": "2026-09-22T10:00:00.000Z",
+          "updatedAt": "2026-09-22T10:00:00.000Z",
+          "tagIds": [1]
+        },
+        {
+          "id": 2,
+          "front": "简化 SM-2 算法中 remember 的间隔如何计算？",
+          "back": "interval = ceil(interval × easeFactor)，easeFactor += 0.1",
+          "nextReviewAt": "2026-09-28T00:00:00.000Z",
+          "reviewCount": 1,
+          "interval": 6,
+          "easeFactor": 2.6,
+          "createdAt": "2026-09-22T10:00:00.000Z",
+          "updatedAt": "2026-09-22T14:00:00.000Z",
+          "tagIds": [1, 2]
+        },
+        {
+          "id": 3,
+          "front": "什么是工作记忆？",
+          "back": "短时间内临时存储和加工信息的认知系统",
+          "nextReviewAt": "2026-09-24T00:00:00.000Z",
+          "reviewCount": 0,
+          "interval": 1,
+          "easeFactor": 2.5,
+          "createdAt": "2026-09-22T12:00:00.000Z",
+          "updatedAt": "2026-09-22T12:00:00.000Z",
+          "tagIds": [1]
+        }
+      ],
+      "total": 12
+    },
+    "message": "success"
+  },
+  "cards-empty": {
+    "code": 200,
+    "data": {
+      "items": [],
+      "total": 0
+    },
+    "message": "success"
+  },
+  "cards-page-last": {
+    "code": 200,
+    "data": {
+      "items": [
+        {
+          "id": 12,
+          "front": "最后一页的卡片正面",
+          "back": "最后一页的卡片背面",
+          "nextReviewAt": "2026-09-25T00:00:00.000Z",
+          "reviewCount": 2,
+          "interval": 7,
+          "easeFactor": 2.7,
+          "createdAt": "2026-09-22T18:00:00.000Z",
+          "updatedAt": "2026-09-22T18:00:00.000Z",
+          "tagIds": []
+        }
+      ],
+      "total": 12
+    },
+    "message": "success"
+  },
+  "cards-detail": {
+    "code": 200,
+    "data": {
+      "id": 1,
+      "front": "艾宾浩斯遗忘曲线的核心结论是什么？",
+      "back": "记忆随时间指数衰减，及时复习可显著减缓遗忘",
+      "nextReviewAt": "2026-09-23T08:00:00.000Z",
+      "reviewCount": 0,
+      "interval": 1,
+      "easeFactor": 2.5,
+      "createdAt": "2026-09-22T10:00:00.000Z",
+      "updatedAt": "2026-09-22T10:00:00.000Z",
+      "tagIds": [1]
+    },
+    "message": "success"
+  },
+  "cards-create": {
+    "code": 200,
+    "data": {
+      "id": 4,
+      "front": "正面",
+      "back": "背面",
+      "nextReviewAt": "2026-09-23T00:00:00.000Z",
+      "reviewCount": 0,
+      "interval": 1,
+      "easeFactor": 2.5,
+      "createdAt": "2026-09-22T12:00:00.000Z",
+      "updatedAt": "2026-09-22T12:00:00.000Z",
+      "tagIds": []
+    },
+    "message": "success"
+  },
+  "cards-generate": {
+    "code": 200,
+    "data": [
+      {
+        "front": "什么是艾宾浩斯遗忘曲线？",
+        "back": "记忆随时间衰减的曲线"
+      },
+      {
+        "front": "间隔重复的核心思想是什么？",
+        "back": "在即将遗忘的时间点复习，用最少次数达到长期记忆"
+      }
+    ],
+    "message": "success"
+  },
+  "cards-batch": {
+    "code": 200,
+    "data": [
+      {
+        "id": 5,
+        "front": "批量卡片 Q1",
+        "back": "批量卡片 A1",
+        "nextReviewAt": "2026-09-23T00:00:00.000Z",
+        "reviewCount": 0,
+        "interval": 1,
+        "easeFactor": 2.5,
+        "createdAt": "2026-09-22T12:00:00.000Z",
+        "updatedAt": "2026-09-22T12:00:00.000Z",
+        "tagIds": []
+      },
+      {
+        "id": 6,
+        "front": "批量卡片 Q2",
+        "back": "批量卡片 A2",
+        "nextReviewAt": "2026-09-23T00:00:00.000Z",
+        "reviewCount": 0,
+        "interval": 1,
+        "easeFactor": 2.5,
+        "createdAt": "2026-09-22T12:00:00.000Z",
+        "updatedAt": "2026-09-22T12:00:00.000Z",
+        "tagIds": []
+      }
+    ],
+    "message": "success"
+  },
+  "cards-update": {
+    "code": 200,
+    "data": {
+      "id": 1,
+      "front": "改后的正面",
+      "back": "改后的背面",
+      "nextReviewAt": "2026-09-23T08:00:00.000Z",
+      "reviewCount": 0,
+      "interval": 1,
+      "easeFactor": 2.5,
+      "createdAt": "2026-09-22T10:00:00.000Z",
+      "updatedAt": "2026-09-22T13:00:00.000Z",
+      "tagIds": [1]
+    },
+    "message": "success"
+  },
+  "cards-delete": {
+    "code": 200,
+    "data": null,
+    "message": "success"
+  },
+  "cards-format-markdown": {
+    "code": 200,
+    "data": {
+      "formatted": "# 标题\n\n- 列表项一\n- 列表项二"
+    },
+    "message": "success"
+  },
+  "tags": {
+    "code": 200,
+    "data": [
+      {
+        "id": 1,
+        "name": "认知科学",
+        "color": "#f5222d"
+      },
+      {
+        "id": 2,
+        "name": "算法",
+        "color": "#1890ff"
+      }
+    ],
+    "message": "success"
+  },
+  "tags-empty": {
+    "code": 200,
+    "data": [],
+    "message": "success"
+  },
+  "tags-create": {
+    "code": 200,
+    "data": {
+      "id": 3,
+      "name": "英语",
+      "color": "#1890ff"
+    },
+    "message": "success"
+  },
+  "tags-update": {
+    "code": 200,
+    "data": {
+      "id": 1,
+      "name": "高等数学",
+      "color": "#f5222d"
+    },
+    "message": "success"
+  },
+  "tags-delete": {
+    "code": 200,
+    "data": null,
+    "message": "success"
+  },
+  "auth-register": {
+    "code": 200,
+    "data": {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsInVzZXJuYW1lIjoiYWxpY2UifQ.mock-token",
+      "user": {
+        "id": 1,
+        "username": "alice"
+      }
+    },
+    "message": "success"
+  },
+  "auth-login": {
+    "code": 200,
+    "data": {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsInVzZXJuYW1lIjoiYWxpY2UifQ.mock-token",
+      "user": {
+        "id": 1,
+        "username": "alice"
+      }
+    },
+    "message": "success"
+  },
+  "auth-me": {
+    "code": 200,
+    "data": {
+      "id": 1,
+      "username": "alice",
+      "email": "alice@example.com",
+      "createdAt": "2026-09-22T10:00:00.000Z"
+    },
+    "message": "success"
+  },
+  "review-today": {
+    "code": 200,
+    "data": [
+      {
+        "id": 1,
+        "front": "艾宾浩斯遗忘曲线的核心结论是什么？",
+        "back": "记忆随时间指数衰减，及时复习可显著减缓遗忘",
+        "nextReviewAt": "2026-09-22T08:00:00.000Z",
+        "reviewCount": 0,
+        "interval": 1,
+        "easeFactor": 2.5,
+        "createdAt": "2026-09-22T10:00:00.000Z",
+        "updatedAt": "2026-09-22T10:00:00.000Z",
+        "tagIds": [1]
+      },
+      {
+        "id": 2,
+        "front": "简化 SM-2 算法中 remember 的间隔如何计算？",
+        "back": "interval = ceil(interval × easeFactor)，easeFactor += 0.1",
+        "nextReviewAt": "2026-09-22T09:00:00.000Z",
+        "reviewCount": 1,
+        "interval": 6,
+        "easeFactor": 2.6,
+        "createdAt": "2026-09-22T10:00:00.000Z",
+        "updatedAt": "2026-09-22T14:00:00.000Z",
+        "tagIds": [1, 2]
+      }
+    ],
+    "message": "success"
+  },
+  "review-today-empty": {
+    "code": 200,
+    "data": [],
+    "message": "success"
+  },
+  "review-submit": {
+    "code": 200,
+    "data": {
+      "id": 1,
+      "front": "艾宾浩斯遗忘曲线的核心结论是什么？",
+      "back": "记忆随时间指数衰减，及时复习可显著减缓遗忘",
+      "nextReviewAt": "2026-09-28T00:00:00.000Z",
+      "reviewCount": 1,
+      "interval": 6,
+      "easeFactor": 2.5,
+      "createdAt": "2026-09-22T10:00:00.000Z",
+      "updatedAt": "2026-09-22T14:00:00.000Z",
+      "tagIds": [1]
+    },
+    "message": "success"
+  },
+  "review-stats": {
+    "code": 200,
+    "data": {
+      "byFeedback": [
+        {
+          "feedback": "remember",
+          "count": 12
+        },
+        {
+          "feedback": "fuzzy",
+          "count": 3
+        },
+        {
+          "feedback": "forget",
+          "count": 2
+        }
+      ],
+      "byDay": [
+        {
+          "date": "2026-09-22",
+          "count": 5
+        },
+        {
+          "date": "2026-09-21",
+          "count": 8
+        }
+      ]
+    },
+    "message": "success"
+  },
+  "quiz-generate": {
+    "code": 200,
+    "data": [
+      {
+        "id": 5,
+        "front": "抽卡题面一",
+        "back": "抽卡答案一",
+        "nextReviewAt": "2026-09-23T00:00:00.000Z",
+        "reviewCount": 0,
+        "interval": 1,
+        "easeFactor": 2.5,
+        "createdAt": "2026-09-22T10:00:00.000Z",
+        "updatedAt": "2026-09-22T10:00:00.000Z",
+        "tagIds": []
+      },
+      {
+        "id": 6,
+        "front": "抽卡题面二",
+        "back": "抽卡答案二",
+        "nextReviewAt": "2026-09-23T00:00:00.000Z",
+        "reviewCount": 0,
+        "interval": 1,
+        "easeFactor": 2.5,
+        "createdAt": "2026-09-22T10:00:00.000Z",
+        "updatedAt": "2026-09-22T10:00:00.000Z",
+        "tagIds": []
+      }
+    ],
+    "message": "success"
+  },
+  "quiz-submit": {
+    "code": 200,
+    "data": {
+      "totalCount": 10,
+      "correctCount": 7
+    },
+    "message": "success"
+  },
+  "error-401": {
+    "code": 401,
+    "data": null,
+    "message": "unauthorized"
+  },
+  "error-403": {
+    "code": 403,
+    "data": null,
+    "message": "forbidden"
+  },
+  "error-404": {
+    "code": 404,
+    "data": null,
+    "message": "not found"
+  },
+  "error-503": {
+    "code": 503,
+    "data": null,
+    "message": "AI service unavailable"
+  }
+}

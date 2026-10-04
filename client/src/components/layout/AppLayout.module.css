@@ -1,0 +1,32 @@
+.shell {
+  display: flex;
+  min-height: 100vh;
+}
+
+.nav {
+  width: 200px;
+  border-right: 1px solid #e5e7eb;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.navItem,
+.navActive {
+  display: block;
+  padding: 8px 12px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #111827;
+}
+
+.navActive {
+  background: #2563eb;
+  color: #ffffff;
+}
+
+.content {
+  flex: 1;
+  padding: 24px;
+  box-sizing: border-box;
+}

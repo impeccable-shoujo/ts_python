@@ -1,0 +1,27 @@
+{
+  "name": "spaced-repetition-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "卡片笔记与间隔复习系统（monorepo：server + client）",
+  "scripts": {
+    "prepare": "husky",
+    "lint-staged": "lint-staged",
+    "mock": "json-server --watch client/mock/db.json --port 3001"
+  },
+  "devDependencies": {
+    "husky": "^9.1.6",
+    "json-server": "^0.17.4",
+    "lint-staged": "^15.2.10"
+  },
+  "lint-staged": {
+    "server/src/**/*.ts": [
+      "npm --prefix server run lint:fix",
+      "npm --prefix server run typecheck",
+      "npm --prefix server run depcruise"
+    ],
+    "client/src/**/*.{ts,tsx}": [
+      "npm --prefix client run lint:fix",
+      "npm --prefix client run typecheck:staged"
+    ]
+  }
+}

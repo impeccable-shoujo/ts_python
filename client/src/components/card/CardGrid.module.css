@@ -1,0 +1,65 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 16px;
+}
+.card {
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 16px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.front {
+  font-size: 14px;
+  color: #111827;
+  min-height: 40px;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.tag {
+  font-size: 12px;
+  padding: 2px 8px;
+  border-radius: 999px;
+}
+.meta {
+  font-size: 12px;
+  color: #6b7280;
+}
+.actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 4px;
+}
+.editBtn,
+.delBtn {
+  flex: 1;
+  padding: 6px 0;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  background: #fff;
+  cursor: pointer;
+  font-size: 13px;
+  color: #374151;
+}
+.editBtn:hover {
+  border-color: #2563eb;
+  color: #2563eb;
+}
+.delBtn:hover {
+  border-color: #dc2626;
+  color: #dc2626;
+}
+.hint {
+  padding: 32px;
+  text-align: center;
+  color: #6b7280;
+  font-size: 14px;
+}
